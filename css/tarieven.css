@@ -8,15 +8,13 @@
     list-style-type: none;
 }
 
-html {
-    height: 823px;
-}
-
 body {
     background-color: rgba(165, 42, 42, 0.5);
     color: white;
     font-family: arial, sans-serif;
     font-size: 14px;
+    min-height: 100%;
+
 }
 
 /* header plus heading en paragraph */
