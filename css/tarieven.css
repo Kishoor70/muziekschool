@@ -66,7 +66,7 @@ nav ul li a {
 
 .container {
     margin-top: 2px;
-    height: 495px;
+    /* height: 495px; */
 }
 
 /* Styling linkerkant */
@@ -112,6 +112,7 @@ nav ul li a {
 .container .rechts {
     background-color: rgba(0, 128, 0, 0.5);
     padding-top: 22px;
+    height: 340px;
 }
 
 .container .rechts #voorwaarden {
@@ -185,7 +186,6 @@ footer {
 
     .container {
         margin-top: 5px;
-        height: auto;
     }
 
     header {
@@ -265,6 +265,7 @@ footer {
     .container .rechts {
         width: 73%;
         padding-top: 40px;
+        padding-bottom: 407px;
     }
 
     .container .rechts #voorwaarden {
