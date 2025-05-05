@@ -66,7 +66,6 @@ nav ul li a {
 
 .container {
     margin-top: 2px;
-    height: auto;
 }
 
 
@@ -75,7 +74,6 @@ nav ul li a {
 .container .links {
     background-color: rgba(0, 128, 0, 0.2);
     padding-top: 20px;
-    height: auto;
 }
 
 .container .links #adresgegevens {
@@ -105,7 +103,7 @@ nav ul li a {
 .container .rechts {
     background-color: rgba(0, 128, 0, 0.5);
     padding-top: 20px;
-    height: 523px;
+    padding-bottom: 1px;
 }
 
 .container .rechts #contact {
@@ -185,24 +183,14 @@ nav ul li a {
 
 /* Styling footer */
 
-/* ******************************************************************************************* */
+/* *****
+************************************************************************************** */
 footer {
-
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding-top: 10px;
     background-color: brown;
-    line-height: 1.5;
-    height: 75px;
-
-
-
-    /* background-color: brown;
-    line-height: 1.5;
-    height: 75px;
     text-align: center;
-    align-content: center; */
+    line-height: 1.5;
+    height: 75px;
 }
 
 /* *********************************************************************************************/
@@ -357,9 +345,8 @@ footer {
     }
      
     footer {
+        padding-top: 30px;
         height: 115px;
-        font-size: 17px;
-    
     }
     
 }
