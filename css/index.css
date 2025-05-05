@@ -190,15 +190,13 @@ main .laatste-paragraaf {
 
 /* ******************************************************************************************* */
 footer {
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding-top: 10px;
     background-color: brown;
+    text-align: center;
     line-height: 1.5;
     height: 75px;
-    /* text-align: center;
-    align-content: center; */
+
+
 }
 
 /* *********************************************************************************************/
@@ -375,9 +373,8 @@ footer {
     }
 
     footer {
+        padding-top: 30px;
         height: 115px;
-        font-size: 17px;
-
     }
 
 }
