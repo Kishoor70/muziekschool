@@ -110,7 +110,8 @@ nav ul li a {
 .container .rechts {
     background-color: rgba(0, 128, 0, 0.5);
     padding-top: 22px;
-    /* height: 340px; */
+    padding-bottom: 40px;
+    height: 337px;
 }
 
 .container .rechts #voorwaarden {
@@ -166,8 +167,6 @@ footer {
     text-align: center;
     line-height: 1.5;
     height: 75px;
-    margin-top: 0;
-    margin-bottom: 0;
     
 }
 
@@ -262,7 +261,8 @@ footer {
     .container .rechts {
         width: 73%;
         padding-top: 40px;
-        padding-bottom: 407px;
+        padding-bottom: 85px;
+        height: 428px;
     }
 
     .container .rechts #voorwaarden {
@@ -304,7 +304,6 @@ footer {
     }
 
     .container .rechts .paragraaf-rechts {
-        margin-bottom: 20px;
         margin-left: 20px;
     }
 
