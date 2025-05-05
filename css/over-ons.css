@@ -195,22 +195,11 @@ nav ul li a {
 
 /* ******************************************************************************************* */
 
-footer p {
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+footer {
+    padding-top: 10px;
     background-color: brown;
+    text-align: center;
     line-height: 1.5;
-    height: 75px;
-
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: brown;
-    line-height: 1.5; */
     height: 75px;
 }
 
@@ -368,17 +357,22 @@ footer p {
     }
 
     footer {
-        height: 215px;
+
+        padding-top: 30px;
+        height: 115px;
+
+
+        /* height: 215px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
 
 
         /* display: flex;
         align-items: center;
         justify-content: center; */
-        height: 115px;
-        background-color: brown;
+        /* height: 115px;
+        background-color: brown; */
         /* line-height: 1.5; */
         /* clear: left;
         display: flex;
