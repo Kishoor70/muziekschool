@@ -8,12 +8,15 @@
     list-style-type: none;
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
     background-color: rgba(165, 42, 42, 0.5);
     color: white;
     font-family: arial, sans-serif;
     font-size: 14px;
-    min-height: 100%;
 
 }
 
