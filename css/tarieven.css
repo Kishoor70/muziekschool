@@ -8,6 +8,10 @@
     list-style-type: none;
 }
 
+html {
+    height: 823px;
+}
+
 body {
     background-color: rgba(165, 42, 42, 0.5);
     color: white;
