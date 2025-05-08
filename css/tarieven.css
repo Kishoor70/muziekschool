@@ -268,13 +268,13 @@ footer {
 
     .container .rechts #voorwaarden {
         margin-left: 20px;
+        margin-bottom: 20px;
         font-size: 29px;
     }
 
     .container .rechts .algemene-voorwaarden {
         color: rgba(0, 0, 0, 0.8);
         font-size: 16px;
-        padding-top: px;
         margin-left: 20px;
         margin-bottom: 20px;
     }
@@ -315,5 +315,3 @@ footer {
     }
     
 }
-
-
