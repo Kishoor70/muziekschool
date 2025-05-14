@@ -1,0 +1,302 @@
+/* Resetten */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(165, 42, 42, 0.5);
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+/* header plus heading en paragraph */
+
+header {
+    background-color: rgb(165, 42, 42);
+    height: 135px;
+    text-align: center; 
+}
+
+header div h1 {
+    font-size: 20px;
+    padding-top: 47px;
+    margin-bottom: 10px;
+}
+
+header div p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Navigatie */
+
+nav {
+    background-color: rgba(0, 128, 0);
+    font-size: 12px;    
+}
+
+nav ul {
+    padding-top: 2px;
+    height: 100px;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 5px 0;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+/* ******************************************************************************************* */
+
+
+/* main content */
+
+.container {
+    margin-top: 2px;
+}
+
+/* Styling linkerkant */
+
+.container .links {
+    background-color: rgba(0, 128, 0, 0.2);
+    padding-top: 20px;
+}
+
+.container .links #tarieven {
+    width: fit-content;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.container .links .individuele-les {
+    margin: 0 10px 10px;
+}
+
+.container .links hr {
+    margin: 0 10px;
+    border: 1px solid yellow;
+    border-radius: 2px;   
+}
+
+.container .links .groepsles {
+    margin: 2px 10px;
+    line-height: 1.5;
+}
+
+.container .links .groepsles-kinderen {
+    margin: 3px 10px 0;
+    padding-bottom: 15px;
+}
+
+/* Styling rechterkant */
+
+.container .rechts {
+    background-color: rgba(0, 128, 0, 0.5);
+    padding-top: 20px;
+    height: 360px;
+}
+
+.container .rechts #voorwaarden {
+    width: fit-content;
+    font-size: 16px;
+    color: rgb(248, 248, 248);
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.container .rechts .algemene-voorwaarden {
+    width: fit-content;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.container .rechts .hr-rechts {
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.container .rechts span {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.container .rechts .artikel-1 {
+     margin: 0 10px 10px;
+}
+
+.container .rechts .artikel {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.container .rechts .paragraaf-rechts {
+     margin: 5px 10px 10px;
+     line-height: 1.5;
+}
+
+/* Styling footer */
+
+/* ******************************************************************************************* */
+footer {
+    padding-top: 10px;
+    background-color: brown;
+    text-align: center;
+    line-height: 1.5;
+    height: 75px;
+    
+}
+
+/* *********************************************************************************************/
+
+/* Desktop mode */
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        margin-top: 5px;
+    }
+
+    header {
+        height: 253px;
+    }
+
+    header div h1 {
+        font-size: 37px;
+        padding-top: 85px;
+    }
+
+    header div p {
+        padding-top: 8px;
+        font-size: 22px;
+    }
+
+    /* Menu */
+    nav ul {
+        height: 45px;
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+    }
+
+    /* Inhoud */
+
+    .container {
+        display: flex;
+    }
+
+    /* Inhoud linkerkant */
+
+    .container .links {
+        width: 27%;
+        padding-top: 40px;
+    }
+
+    .container .links #tarieven {
+        margin-left: 20px;
+        font-size: 29px;
+    }
+
+    .container .links hr {
+        width: 90%;
+        margin: 0 20px 10px;
+    }
+
+    .container .links .individuele-les {
+        margin: 0 20px 15px;
+    }
+
+    .container .links .groepsles {
+        margin: 0 20px 5px;
+    }
+
+    .container .links .groepsles-kinderen {
+        margin: 0 20px;
+    }
+
+
+    /* Inhoud rechterkant */
+
+
+    .container .rechts {
+        width: 73%;
+        padding-top: 40px;
+        height: 459px;
+    }
+
+    .container .rechts #voorwaarden {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 29px;
+    }
+
+    .container .rechts .algemene-voorwaarden {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container .rechts .artikel-1 {
+        margin: 0 20px 15px;
+
+    }
+
+    .container .rechts .artikel-1 span {
+        font-size: 19px;
+    }
+
+    .container .rechts .hr-rechts {
+        margin: 0 20px 10px ;
+    }
+
+
+    .container .rechts .artikel {
+        margin: 0 20px;
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+
+    .container .rechts .paragraaf-rechts {
+        margin: 0 20px 15px;
+
+    }
+
+    footer {
+        padding-top: 30px;
+        height: 115px;
+
+    }
+    
+}
+
+
